@@ -1,34 +1,30 @@
 package practice;
 
-
 class Animal
 {
-	void makeSound()
+	public void makeSound()
 	{
-		System.out.println("JBKJBJKBKJB");
+		System.out.println("I am the king");
 	}
 }
-
 
 class Cat extends Animal
 {
-	void makeSound()
+	public void makeSound()
 	{
-		System.out.println("Meow");
+		System.out.println("meow");
 	}
 }
 
-
-	public class Jungle {
-
+public class Jungle
+{
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
-		Animal animal = new Animal();
-		Animal cat = new Cat();
-		animal.makeSound();
-		cat.makeSound();
-
+		Animal animal1 = new Animal();
+		Animal animal2 = new Cat();
+		animal1.makeSound();
+		animal2.makeSound();
 	}
-
 }
+
+
